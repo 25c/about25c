@@ -3,11 +3,15 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-app.get('/terms', function(req, res) {	
-	res.render('terms.jade', { title: "Terms of Service" });
+app.get('/ab(.:format)?', function(req, res) {
+	res.render('ab.jade', { title: "25c Inc." });
 });
 
-app.get('/privacy', function(req, res) {	
+app.get('/terms(.:format)?', function(req, res) {	
+	res.render('terms.jade', { title: "Terms of Use" });
+});
+
+app.get('/privacy(.:format)?', function(req, res) {	
 	res.render('privacy.jade', { title: "Privacy Policy" });
 });
 
