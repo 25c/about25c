@@ -1,8 +1,18 @@
 p This button is inserted in place using JavaScript, which also inserts a tooltip into the parent page.
 p
 	if NODE_ENV == 'production'
-		a(href="https://www.plus25c.com/tip/d660c3209887012f72ab1231394269a0", class="tip-25c-button", data-size="large") Tip me +25c!
+		a(href="https://www.plus25c.com/tip/d660c3209887012f72ab1231394269a0", class="tip-25c-button", data-size="btn-large") Tip me +25c!
+		a(href="https://www.plus25c.com/tip/d660c3209887012f72ab1231394269a0", class="tip-25c-button", data-size="btn-medium") Tip me +25c!
+		a(href="https://www.plus25c.com/tip/d660c3209887012f72ab1231394269a0", class="tip-25c-button", data-size="btn-small") Tip me +25c!
+		a(href="https://www.plus25c.com/tip/d660c3209887012f72ab1231394269a0", class="tip-25c-button", data-size="icon-large") Tip me +25c!
+		a(href="https://www.plus25c.com/tip/d660c3209887012f72ab1231394269a0", class="tip-25c-button", data-size="icon-medium") Tip me +25c!
+		a(href="https://www.plus25c.com/tip/d660c3209887012f72ab1231394269a0", class="tip-25c-button", data-size="icon-small") Tip me +25c!
 		script !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//api.plus25c.com/public/javascripts/button.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","tip-25c-js");
 	else
-		a(href="http://localhost:3000/tip/5c6e0950a1ea012f5e5860c5470a09c8", class="tip-25c-button", data-size="large") Tip me +25c!
+		a(href="http://localhost:3000/tip/5c6e0950a1ea012f5e5860c5470a09c8", class="tip-25c-button", data-size="btn-large") Tip me +25c!
+		a(href="http://localhost:3000/tip/5c6e0950a1ea012f5e5860c5470a09c8", class="tip-25c-button", data-size="btn-medium") Tip me +25c!
+		a(href="http://localhost:3000/tip/5c6e0950a1ea012f5e5860c5470a09c8", class="tip-25c-button", data-size="btn-small") Tip me +25c!
+		a(href="http://localhost:3000/tip/5c6e0950a1ea012f5e5860c5470a09c8", class="tip-25c-button", data-size="icon-large") Tip me +25c!
+		a(href="http://localhost:3000/tip/5c6e0950a1ea012f5e5860c5470a09c8", class="tip-25c-button", data-size="icon-medium") Tip me +25c!
+		a(href="http://localhost:3000/tip/5c6e0950a1ea012f5e5860c5470a09c8", class="tip-25c-button", data-size="icon-small") Tip me +25c!
 		script !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//localhost:5000/public/javascripts/button.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","tip-25c-js");
